@@ -1,0 +1,18 @@
+form{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/13;
+}
+
+input{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+button:active{
+    background-color: green;
+} 
+
+button:checked{
+    text-align: left;
+}
